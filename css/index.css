@@ -33,7 +33,8 @@ body{
     top: 0px;
     margin-left: 0;
     width: 100%;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(65, 65, 65);
+    /*  rgb(49, 49, 49); */
     /* background-image: linear-gradient(rgba(58, 58, 58, 0.7),transparent); */
     z-index: 100;
 }
@@ -46,6 +47,10 @@ body{
     text-align: left;
     color: white;
 }
+.left-item {
+    align-content: flex-end;
+}
+
 .nav-item a:hover{
     /* color: rgb(124, 124, 124); */
     color: rgba(24, 236, 201, 0.753);
@@ -80,10 +85,14 @@ body{
     padding-left: 45%;
     padding-right: 40%; 
 }
-#skillIcon{
-    width:48px;
-    height:32px;
-    padding-left: 20px;
+#icon{
+    margin-left:auto;
+    margin-right: auto;
+    width:24px;
+    height:24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
 }
 
 /* ANIMATIONS */
