@@ -38,6 +38,17 @@ body{
     /* background-image: linear-gradient(rgba(58, 58, 58, 0.7),transparent); */
     z-index: 100;
 }
+.side-panel{
+    background-color: gainsboro;
+    z-index: 20;
+    float: right;
+    position: relative;
+    display: block;
+    vertical-align: middle;
+    width: 256px;
+    height: 200%;
+}
+
 .navbar li{
     display: inline-block;
     width: 10%;
