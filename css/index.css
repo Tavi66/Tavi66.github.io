@@ -39,16 +39,24 @@ body{
     z-index: 100;
 }
 .side-panel{
-    background-color: gainsboro;
-    z-index: 20;
+    background-color: white;
+    z-index: 1;
     float: right;
     position: relative;
     display: block;
-    vertical-align: middle;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 256px;
-    height: 200%;
+    height: 100%;
 }
-
+.side-panel a {
+    text-decoration:none;
+    text-align: left;
+    color: black;
+}
 .navbar li{
     display: inline-block;
     width: 10%;
@@ -57,14 +65,19 @@ body{
     text-decoration:none;
     text-align: left;
     color: white;
+    padding: 10%;
 }
+
 .left-item {
     align-content: flex-end;
 }
 
 .nav-item a:hover{
     /* color: rgb(124, 124, 124); */
-    color: rgba(24, 236, 201, 0.753);
+    color: black;
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 10%;
+    left: 64px;
 }    
 .panelText{
     display: inline-block;
