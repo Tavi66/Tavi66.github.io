@@ -18,7 +18,8 @@ body{
     color: darkslategray;
     align-items: center;
     max-width: 100%;
-    background-color: transparent;    
+    background-color: white; 
+    padding-bottom: 10px;   
 }
 .container h3{
     z-index: 10;
@@ -32,6 +33,7 @@ body{
 .navbar{
     align-content: center;
     position: fixed;
+    
     top: 0px;
     margin-left: 0;
     width: 100%;
@@ -41,6 +43,14 @@ body{
     z-index: 100;
 }
 /*Project*/
+.project{
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(177, 177, 177);
+    margin: 5px;
+    background-color: rgba(224, 224, 224, 0.301);
+    padding-top: 5px;
+}
 .project-header{
     text-align: center;
 }
@@ -122,16 +132,43 @@ body{
 .panelText{
     display: inline-block;
     padding-left: 20px;
-    top:10px;
+    top:5px;
+    bottom: 10px;
 }
 /*.........................................................*/
 /* IDs */
+#fold-video{
+    z-index: -100;
+    width: 100%;
+    height: 125%;
+    position: fixed; 
+}
+#project-file{
+    margin-left:auto;
+    margin-right:auto;
+    width: 50%;
+    height: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 5px; 
+}
+#project-img{
+    width: 25%;
+    height: 250px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px; 
+    padding-bottom: 10px;
+    position: relative;
+}
 #home{
     width:100%;
-    height: 592px;
+    height: 500px; /*592px*/
     margin-left:auto;
     margin-right: auto;
     display: inline-block;
+    color: white;
+    background-color: rgba(68, 67, 67, 0.712);
 }
 #nameMessage{
     z-index: 1;
