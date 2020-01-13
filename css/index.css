@@ -28,6 +28,7 @@ body{
 
 .panel{
     padding-top: 35px;
+    margin:5px;
 }
 
 .navbar{
@@ -135,8 +136,18 @@ body{
     top:5px;
     bottom: 10px;
 }
+
 /*.........................................................*/
 /* IDs */
+#about{
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(177, 177, 177);
+    margin: 5px;
+    background-color: rgba(224, 224, 224, 0.301);
+    padding: 5px;
+}
+
 #fold-video{
     z-index: -100;
     width: 100%;
